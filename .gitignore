@@ -107,3 +107,4 @@ venv.bak/
 *.iml
 .idea
 dupa.py
+Report_*
