@@ -106,6 +106,6 @@ venv.bak/
 # Customs
 *.iml
 .idea
-dupa.py
+dupa.*
 Report_*
 .DS_Store
