@@ -1,3 +1,6 @@
+##
+# Author: Daniel Hajduk
+##
 import boto3
 from aws_resources.AWSResource import AWSResource
 

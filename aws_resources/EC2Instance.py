@@ -1,3 +1,6 @@
+##
+# Author: Daniel Hajduk
+##
 from aws_resources.AWSResource import AWSResource
 
 

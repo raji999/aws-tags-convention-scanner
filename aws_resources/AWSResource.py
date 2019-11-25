@@ -1,3 +1,6 @@
+##
+# Author: Daniel Hajduk
+##
 from abc import abstractmethod, ABC
 
 
