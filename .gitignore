@@ -108,3 +108,4 @@ venv.bak/
 .idea
 dupa.py
 Report_*
+.DS_Store

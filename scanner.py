@@ -8,6 +8,7 @@ import collections
 
 from aws_resources.AutoScalingGroup import AutoScalingGroup
 from aws_resources.EC2Instance import EC2Instance
+from aws_resources.KinesisStream import KinesisStream
 
 
 def load_config(file) -> dict:
@@ -31,8 +32,9 @@ def validate_config(config):
 
 def initialize_retrievers() -> dict:
     return {
-        "EC2Instance": EC2Instance(),
-        "AutoScalingGroup": AutoScalingGroup()
+        'EC2Instance': EC2Instance(),
+        'AutoScalingGroup': AutoScalingGroup(),
+        'KinesisStream': KinesisStream()
     }
 
 
